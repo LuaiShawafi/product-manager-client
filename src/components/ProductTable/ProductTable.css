@@ -1,0 +1,11 @@
+table {
+    width: 90%;
+    margin: auto;
+  }
+  th,
+  td {
+    text-align: left;
+    border: 1px solid gray;
+    padding: 5px;
+    width: 100px;
+  }
