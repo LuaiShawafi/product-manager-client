@@ -21,7 +21,7 @@ const ProductTable = ({ products, onDelete }) => (
           <td>{product.imageUrl}</td>
           <td>{product.price}</td>
           <td>
-            <button onClick={() => onDelete(product.id)}>X</button>
+            <button onClick={() => onDelete(product.sku)}>X</button>
           </td>
         </tr>
       ))}
